@@ -90,7 +90,7 @@
         let totalProducts = 0; // Variable to store the total number of products across all orders
 
         async function loadOrderProducts(userId) {
-            const url = `https://localhost:7000/api/Order/GetOrdersWithProductsByUser/${userId}`;
+            const url = `https://localhost:44396/api/Order/GetOrdersWithProductsByUser/${userId}`;
             const response = await fetch(url);
 
             if (!response.ok) {
@@ -159,7 +159,7 @@
             }
 
             const ratingValue = selectedRating.value;
-            const url = `https://localhost:7000/api/Rating/SubmitRating`;
+            const url = `https://localhost:44396/api/Rating/SubmitRating`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

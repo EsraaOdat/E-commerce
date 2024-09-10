@@ -213,13 +213,13 @@
         $(document).ready(function() {
             let categoriesMap = {};
 
-            fetch('https://localhost:7000/api/Categories')
+            fetch('https://localhost:44396/api/Categories')
                 .then(response => response.json())
                 .then(categories => {
                     categories.forEach(category => {
                         categoriesMap[category.categoryId] = category.name;
                     });
-                    return fetch('https://localhost:7000/api/Products');
+                    return fetch('https://localhost:44396/api/Products');
                 })
                 .then(response => response.json())
                 .then(products => {
@@ -227,7 +227,7 @@
                     products.forEach(product => {
                         const productHTML = `
                             <tr>
-                                <td><img src="https://localhost:7000${product.image}" alt="${product.name}" style="width: 50px; height: auto;"> ${product.name}</td>
+                                <td><img src="https://localhost:44396${product.image}" alt="${product.name}" style="width: 50px; height: auto;"> ${product.name}</td>
                                 <td>$${product.price}</td>
                                 <td>$${product.priceWithDiscount}</td>
                                 <td>${categoriesMap[product.categoryId] || 'N/A'}</td>
@@ -253,7 +253,7 @@
 
         function deleteProduct(productId) {
             if (confirm("Are you sure you want to delete this product?")) {
-                fetch(`https://localhost:7000/api/Products/${productId}`, {
+                fetch(`https://localhost:44396/api/Products/${productId}`, {
                     method: 'DELETE'
                 })
                 .then(response => {

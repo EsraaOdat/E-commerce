@@ -568,13 +568,14 @@
         async function ADDCoupon() {
             event.preventDefault(event);
 
-            const url = `https://localhost:7000/api/Coupons/Add`;
+            const url = `https://localhost:44396/api/Coupons/Add`;
 
             const formData = new FormData();
             formData.append("name", document.getElementById('CouponCode').value);
             formData.append("amount", document.getElementById('discountAmount').value);
             formData.append("date", document.getElementById('expirationDate').value);
 
+            formData.append("status", "Pending");
 
 
             try {
@@ -605,7 +606,7 @@
 
 
         async function couponList() {
-            const url = `https://localhost:7000/api/Coupons`;
+            const url = `https://localhost:44396/api/Coupons`;
 
             try { // Add try block here
                 const response = await fetch(url);
@@ -654,7 +655,7 @@
         couponList();
         async function DeleteCoupon(coponId) {
 
-            const url = `https://localhost:7000/api/Coupons/Delete/${coponId}`;
+            const url = `https://localhost:44396/api/Coupons/Delete/${coponId}`;
 
             const response = await fetch(url, {
                 method: 'DELETE'
@@ -666,7 +667,7 @@
 
 
         async function ActivateCoupon(coponId) {
-            const url = `https://localhost:7000/api/Coupons/Update/${coponId}`;
+            const url = `https://localhost:44396/api/Coupons/Update/${coponId}`;
 
             const updatedData = {
                 coponId: coponId,
@@ -683,7 +684,6 @@
 
             if (response.ok) {
                 alert('Coupon activated successfully!');
-                document.getElementById(`CouponItemRow${coponId}`).querySelector('.status-column').innerText = 'Active';
             } else {
                 const errorData = await response.json();
                 console.error('Error:', errorData);

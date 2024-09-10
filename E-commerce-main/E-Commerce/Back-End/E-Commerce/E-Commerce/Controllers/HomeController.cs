@@ -51,11 +51,11 @@ namespace E_Commerce.Controllers
         }
 
         [HttpGet("NewArrival")]
-        public IActionResult NewArrival()
+       /* public IActionResult NewArrival()
         {
             var newProduct = _db.Products.OrderByDescending(l => l.Date).Take(5).ToList();
             return Ok(newProduct);
-        }
+        }*/
 
         [HttpGet("OffSale")]
         public IActionResult OffSale() { 

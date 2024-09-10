@@ -206,7 +206,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            fetch('https://localhost:7000/api/Categories')
+            fetch('https://localhost:44396/api/Categories')
                 .then(response => response.json())
                 .then(categories => {
                     const categoryDropdown = document.getElementById('categoryId');
@@ -225,7 +225,7 @@
             const formData = new FormData(this);
             formData.append('FlowerColorId', document.getElementById('flowerColorId').value);
 
-            fetch('https://localhost:7000/api/Products', {
+            fetch('https://localhost:44396/api/Products', {
                 method: 'POST',
                 body: formData
             })

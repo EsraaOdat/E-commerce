@@ -785,7 +785,7 @@
         var userID = Number( localStorage.getItem('userID'));
         async function getData() {
             debugger;
-            const url = `https://localhost:7000/api/Orders/GetOrdersByUser/${userID}`;
+            const url = `https://localhost:44396/api/Users/GetUserById/${userID}`;
 
             try {
                 const response = await fetch(url);
@@ -853,7 +853,7 @@
             //     return;
             // }
 
-            const url = `https://localhost:7000/api/Users/GetUserById/${userID}`;
+            const url = `https://localhost:44396/api/Users/GetUserById/${userID}`;
 
             try {
                 const response = await fetch(url);
@@ -892,7 +892,7 @@
             event.preventDefault(); // Prevent the default form submission behavior
 
             const UserId = localStorage.getItem("UserId"); // Ensure the UserId is stored in localStorage
-            const url = `https://localhost:7000/api/Users/UpdateUser/${userID}`; // Correct URL
+            const url = `https://localhost:44396/api/Users/UpdateUser/${userID}`; // Correct URL
 
             // Collect the form data
             const firstName = document.getElementById('FirstName').value;
@@ -948,7 +948,7 @@
                 return;
             }
 
-            const url = "https://localhost:7000/api/Users/ChangePassword";  // تعديل URL API
+            const url = "https://localhost:44396/api/Users/ChangePassword";  // تعديل URL API
 
             const formData = new FormData();
             formData.append('CurrentPassword', currentPassword);

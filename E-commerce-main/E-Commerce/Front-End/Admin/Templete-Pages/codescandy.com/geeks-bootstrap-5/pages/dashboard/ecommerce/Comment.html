@@ -1072,7 +1072,7 @@
 
     <script>
         async function getData() {
-            const url = "https://localhost:7000/api/Comments/all";  // Make sure this is the correct API URL
+            const url = "https://localhost:44396/api/Comments/all";  // Make sure this is the correct API URL
 
             try {
                 const response = await fetch(url);
@@ -1200,7 +1200,7 @@ function confirmAction(action, commentId) {
 // Function to approve the comment (display on the user page)
 function approveComment(commentId) {
     // Send a PUT request to the API to approve the comment
-    fetch(`https://localhost:7000/api/Comments/approve${commentId}`, {
+    fetch(`https://localhost:44396/api/Comments/approve${commentId}`, {
         method: 'PUT'
     })
     .then(response => {
@@ -1229,7 +1229,7 @@ function approveComment(commentId) {
 // Function to delete the comment
 function deleteComment(commentId) {
     // Send a PUT request to the API to delete the comment
-    fetch(`https://localhost:7000/api/Comments/reject/${commentId}`, {
+    fetch(`https://localhost:44396/api/Comments/reject/${commentId}`, {
         method: 'PUT'
     })
     .then(response => {

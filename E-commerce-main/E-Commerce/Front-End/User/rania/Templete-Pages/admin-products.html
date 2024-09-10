@@ -17,7 +17,7 @@
 
     <script>
         $(document).ready(function() {
-            fetch('https://localhost:7000/api/Products')
+            fetch('https://localhost:44396/api/Products')
                 .then(response => response.json())
                 .then(products => {
                     const productList = $('#productList');
@@ -25,7 +25,7 @@
                         const productHTML = `
                             <div class="col-md-4">
                                 <div class="card mb-4 shadow-sm">
-                                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://localhost:7000${product.image}" alt="${product.name}">
+                                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="src="../../../../Back-End/E-Commerce/E-Commerce/Images/hand_tied_pink_carnations.jpg"" alt="${product.name}">
                                     <div class="card-body">
                                         <p class="card-text">${product.name} - $${product.price}</p>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -59,7 +59,7 @@
 
         function deleteProduct(productId) {
     if (confirm("Are you sure you want to delete this product?")) {
-        fetch(`https://localhost:7000/api/Products/${productId}`, {
+        fetch(`https://localhost:44396/api/Products/${productId}`, {
             method: 'DELETE'
         })
         .then(response => {

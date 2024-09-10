@@ -1092,111 +1092,25 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Fetch categories and populate the category list
-        fetch('https://localhost:7000/api/Categories')
-            .then(response => response.json())
-            .then(categories => {
-                const categoryList = document.getElementById('categoryList');
-                categories.forEach(category => {
-                    const li = document.createElement('li');
-                    const a = document.createElement('a');
-                    a.textContent = category.name;
-                    a.href = "#";
-                    a.addEventListener('click', (event) => {
-                        event.preventDefault();
-                        filterProductsByCategory(category.categoryId);
-                    });
-                    li.appendChild(a);
-                    categoryList.appendChild(li);
-                });
-            })
-            .catch(error => {
-                console.error('Error loading categories:', error);
-            });
-
-        // Function to fetch and display products based on category
-        function filterProductsByCategory(categoryId) {
-            fetch(`https://localhost:7000/api/Products/ByCategoryId/${categoryId}`)
-                .then(response => response.json())
-                .then(products => {
-                    const productGrid = document.getElementById('productGrid');
-                    productGrid.innerHTML = ''; // Clear existing products
-                    products.forEach(product => {
-                        const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/wwwroot/uploads/images/${product.image}` : 'path/to/default/image.jpg';
-                        let priceHtml = product.priceWithDiscount && product.priceWithDiscount < product.price ?
-                            `<span style="text-decoration: line-through;">$${product.price}</span> <span style="color: red;">$${product.priceWithDiscount}</span>` :
-                            `$${product.price}`;
-                        const productHTML = `
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="product-item">
-                                    <img src="${imageUrl}" alt="${product.name}" />
-                                     <span style="display: block; text-align: center;">
-    <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})" class="product-link" data-id="${product.productId}">${product.name}</a></h2>
-
-                                    <p>${priceHtml}</p>
-                                </div>
-                            </div>`;
-                        productGrid.innerHTML += productHTML;
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching products by category:', error);
-                    productGrid.innerHTML = '<p>Failed to load products.</p>';
-                });
-        }
-    });
-</script>
-
-    
-
-<!--filter by category-->
-
-
-
-<!--get all products-->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://localhost:7000/api/Products') // Adjust the URL to your actual API endpoint
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
+    // جلب المنتجات
+    fetch('https://localhost:44396/api/Products')
+        .then(response => response.json())
         .then(products => {
             const productGrid = document.getElementById('productGrid');
-            productGrid.innerHTML = ''; // Clear previous content
+            productGrid.innerHTML = ''; // تفريغ المحتوى السابق
 
             products.forEach(product => {
-                const imageUrl = `../../../../Back-End/E-Commerce/E-Commerce/wwwroot/uploads/images/${product.image}`; // Make sure 'image' matches the property from your API
+                // تحقق من وجود صورة، وإذا لم توجد، استخدم صورة افتراضية
+                const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default-image.jpg';
+                
                 const productHTML = `
                     <div class="col-xl-4 col-sm-6 col-12">
                         <div class="ltn__product-item text-center">
                             <div class="product-img">
                                 <a href="product-details.html"><img src="${imageUrl}" alt="${product.name}" /></a>
-                                
-                                <div class="product-hover-action">
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                <i class="icon-handbag"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Wishlist">
-                                                <i class="icon-heart"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                             <div class="product-info">
-                               <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})" class="product-link" data-id="${product.productId}">${product.name}</a></h2>
+                                <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})">${product.name}</a></h2>
                                 <div class="product-price">
                                     <span>$${product.price}</span>
                                 </div>
@@ -1209,10 +1123,55 @@
         })
         .catch(error => {
             console.error('Error fetching products:', error);
-            productGrid.innerHTML = '<p>Error loading products. Please check console for more details.</p>';
+            productGrid.innerHTML = '<p>Error loading products.</p>';
         });
 });
 
+</script>
+
+    
+
+<!--filter by category-->
+
+
+
+<!--get all products-->
+    <script>
+        debugger;
+     document.addEventListener('DOMContentLoaded', function() {
+    // جلب المنتجات
+    fetch('https://localhost:44396/api/Products')
+        .then(response => response.json())
+        .then(products => {
+            const productGrid = document.getElementById('productGrid');
+            productGrid.innerHTML = ''; // تفريغ المحتوى السابق
+
+            products.forEach(product => {
+                // تعديل مسار صور المنتجات فقط
+                const imageUrl = `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}`;
+                const productHTML = `
+                    <div class="col-xl-4 col-sm-6 col-12">
+                        <div class="ltn__product-item text-center">
+                            <div class="product-img">
+                                <a href="product-details.html"><img src="${imageUrl}" alt="${product.name}" /></a>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})">${product.name}</a></h2>
+                                <div class="product-price">
+                                    <span>$${product.price}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                productGrid.innerHTML += productHTML;
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching products:', error);
+            productGrid.innerHTML = '<p>Error loading products.</p>';
+        });
+});
 
 </script>
         
@@ -1241,13 +1200,13 @@
 
         function fetchFilteredProducts(minPrice, maxPrice) {
             // Adjust the URL to the new endpoint for discounted prices
-            fetch(`https://localhost:7000/api/Products/ByDiscountedPriceRange?minPrice=${minPrice}&maxPrice=${maxPrice}`)
+            fetch(`https://localhost:44396/api/Products/ByDiscountedPriceRange?minPrice=${minPrice}&maxPrice=${maxPrice}`)
                 .then(response => response.json())
                 .then(products => {
                     const productGrid = document.getElementById('productGrid');
                     productGrid.innerHTML = ''; // Clear existing products
                     products.forEach(product => {
-                        const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/wwwroot/uploads/images/${product.image}` : 'path/to/default/image.jpg'; // Provide a default image if none is available
+                        const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default/image.jpg'; // Provide a default image if none is available
                         let priceHtml = `<span>$${product.price}</span>`; // Default price display
 
                         // Check if there is a discount and adjust the price display
@@ -1287,14 +1246,14 @@
 <!--filter by color script-->
 <script>
     function filterByColor(colorId) {
-        fetch(`https://localhost:7000/api/Products/ByColorId/${colorId}`)
+        fetch(`https://localhost:44396/api/Products/ByColorId/${colorId}`)
             .then(response => response.json())
             .then(products => {
                 const productGrid = document.getElementById('productGrid');
                 productGrid.innerHTML = ''; // Clear existing content
     
                 products.forEach(product => {
-                    const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/wwwroot/uploads/images/${product.image}` : 'path/to/default/image.jpg'; // Provide a default image if none is available
+                    const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default/image.jpg'; // Provide a default image if none is available
                     let priceDisplay = product.priceWithDiscount < product.price ?
                         `<span style="text-decoration: line-through;">$${product.price}</span> <span style="color: red;">$${product.priceWithDiscount}</span>` :
                         `$${product.price}`;
@@ -1326,7 +1285,7 @@
     <script>
 
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://localhost:7000/api/Products') // Adjust the URL to your actual API endpoint
+    fetch('https://localhost:44396/api/Products') // Adjust the URL to your actual API endpoint
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -1338,7 +1297,7 @@ document.addEventListener('DOMContentLoaded', function() {
             productGrid.innerHTML = ''; // Clear previous content
 
             products.forEach(product => {
-                const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/wwwroot/uploads/images/${product.image}` : 'path/to/default/image.jpg'; // Provide a default image if none is available
+                const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default/image.jpg'; // Provide a default image if none is available
                 let priceHtml = `<span>$${product.price}</span>`; // Default price display
 
                 // Check if there is a discount and adjust the price display
@@ -1403,7 +1362,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function loadProducts() {
     const productGrid = document.getElementById('productGrid');
 
-        var requist = await fetch('https://localhost:7000/api/Products');
+        var requist = await fetch('https://localhost:44396/api/Products');
         var response = await requist.json();
         
         response.forEach(product => {
@@ -1411,7 +1370,7 @@ document.addEventListener('DOMContentLoaded', function() {
            <div class="col-xl-4 col-sm-6 col-12">
                      <div class="ltn__product-item text-center">
                         <div class="product-img">
-                             <a href="#"><img src="${product.imageUrl}" alt="${product.name}" /></a>
+                             <a href="#"><img src="../../../../Back-End/E-Commerce/E-Commerce/Images/${product.imageUrl}" alt="${product.name}" /></a>
                           </div>
                           <div class="product-info">
                           <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})" class="product-link" data-id="${product.productId}">${product.name}</a></h2>
@@ -1456,7 +1415,7 @@ function storeproductid(productId) {
         function handleSearch() {
             const searchTerm = searchInput.value;
             if (searchTerm.trim() !== '') {
-                fetch(`https://localhost:7000/api/Products/SearchByName/${encodeURIComponent(searchTerm)}`)
+                fetch(`https://localhost:44396/api/Products/SearchByName/${encodeURIComponent(searchTerm)}`)
                 .then(response => response.json())
                 .then(products => {
                     productGrid.innerHTML = ''; // Clear existing content
@@ -1465,7 +1424,7 @@ function storeproductid(productId) {
                             const priceHtml = product.priceWithDiscount < product.price ?
                                 `<span class="original-price" style="text-decoration: line-through;">$${product.price}</span> <span class="discounted-price" style="color: red;">$${product.priceWithDiscount}</span>` :
                                 `<span>$${product.price}</span>`;
-                            const imageUrl = product.image ? `https://localhost:7000${product.image}` : 'path/to/default/image.jpg';
+                            const imageUrl = product.image ? `<img src="../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default/image.jpg';
                             productGrid.innerHTML += `
                                 <div class="col-lg-4 col-md-6 col-sm-12">
                                     <div class="product-item" style="text-align: center;">
