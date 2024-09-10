@@ -1092,22 +1092,21 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-    // جلب المنتجات
     fetch('https://localhost:44396/api/Products')
         .then(response => response.json())
         .then(products => {
             const productGrid = document.getElementById('productGrid');
-            productGrid.innerHTML = ''; // تفريغ المحتوى السابق
+            productGrid.innerHTML = ''; 
 
             products.forEach(product => {
-                // تحقق من وجود صورة، وإذا لم توجد، استخدم صورة افتراضية
                 const imageUrl = product.image ? `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default-image.jpg';
                 
                 const productHTML = `
                     <div class="col-xl-4 col-sm-6 col-12">
                         <div class="ltn__product-item text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="${imageUrl}" alt="${product.name}" /></a>
+                                <a href="product-details.html"><img style="height: 350px; object-fit: cover;"
+ src="${imageUrl}" alt="${product.name}" /></a>
                             </div>
                             <div class="product-info">
                                 <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})">${product.name}</a></h2>
@@ -1137,23 +1136,21 @@
 
 <!--get all products-->
     <script>
-        debugger;
      document.addEventListener('DOMContentLoaded', function() {
-    // جلب المنتجات
     fetch('https://localhost:44396/api/Products')
         .then(response => response.json())
         .then(products => {
             const productGrid = document.getElementById('productGrid');
-            productGrid.innerHTML = ''; // تفريغ المحتوى السابق
+            productGrid.innerHTML = ''; 
 
             products.forEach(product => {
-                // تعديل مسار صور المنتجات فقط
                 const imageUrl = `../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}`;
                 const productHTML = `
                     <div class="col-xl-4 col-sm-6 col-12">
                         <div class="ltn__product-item text-center">
                             <div class="product-img">
-                                <a href="product-details.html"><img src="${imageUrl}" alt="${product.name}" /></a>
+                                <a href="product-details.html"><img style="height: 350px; object-fit: cover;"
+ src="${imageUrl}" alt="${product.name}" /></a>
                             </div>
                             <div class="product-info">
                                 <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})">${product.name}</a></h2>
@@ -1218,7 +1215,8 @@
                             <div class="col-xl-4 col-sm-6 col-12">
                                 <div class="ltn__product-item text-center">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="${imageUrl}" alt="${product.name}" /></a>
+                                        <a href="product-details.html"><img style="height: 350px; object-fit: cover;"
+ src="${imageUrl}" alt="${product.name}" /></a>
                                     </div>
                                     <div class="product-info">
                                        <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})" class="product-link" data-id="${product.productId}">${product.name}</a></h2>
@@ -1261,7 +1259,8 @@
                     const productHTML = `
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="product-item">
-                                <img src="${imageUrl}" alt="${product.name}" />
+                                <img style="height: 350px; object-fit: cover;"
+ src="${imageUrl}" alt="${product.name}" />
                                 <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})" class="product-link" data-id="${product.productId}">${product.name}</a></h2>
                                 <p>${priceDisplay}</p>
                             </div>
@@ -1309,7 +1308,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="col-xl-4 col-sm-6 col-12">
                         <div class="ltn__product-item text-center">
                             <div class="product-img">
-                                <a href="product-details.html" onclick="storeproductid(${product.productId})"><img src="${imageUrl}" alt="${product.name}" /></a>
+                                <a href="product-details.html" onclick="storeproductid(${product.productId})"><img style="height: 350px; object-fit: cover;"
+ src="${imageUrl}" alt="${product.name}" /></a>
                                 
                                 <div class="product-hover-action">
                                     <ul>
@@ -1370,7 +1370,8 @@ document.addEventListener('DOMContentLoaded', function() {
            <div class="col-xl-4 col-sm-6 col-12">
                      <div class="ltn__product-item text-center">
                         <div class="product-img">
-                             <a href="#"><img src="../../../../Back-End/E-Commerce/E-Commerce/Images/${product.imageUrl}" alt="${product.name}" /></a>
+                             <a href="#"><img style="height: 350px; object-fit: cover;"
+ src="../../../../Back-End/E-Commerce/E-Commerce/Images/${product.imageUrl}" alt="${product.name}" /></a>
                           </div>
                           <div class="product-info">
                           <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})" class="product-link" data-id="${product.productId}">${product.name}</a></h2>
@@ -1424,12 +1425,14 @@ function storeproductid(productId) {
                             const priceHtml = product.priceWithDiscount < product.price ?
                                 `<span class="original-price" style="text-decoration: line-through;">$${product.price}</span> <span class="discounted-price" style="color: red;">$${product.priceWithDiscount}</span>` :
                                 `<span>$${product.price}</span>`;
-                            const imageUrl = product.image ? `<img src="../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default/image.jpg';
+                            const imageUrl = product.image ? `<img style="height: 350px; object-fit: cover;"
+ src="../../../../Back-End/E-Commerce/E-Commerce/Images/${product.image}` : 'path/to/default/image.jpg';
                             productGrid.innerHTML += `
                                 <div class="col-lg-4 col-md-6 col-sm-12">
                                     <div class="product-item" style="text-align: center;">
                                         <a href="product-details.html" onclick="storeproductid(${product.productId})">
-                                            <img src="${imageUrl}" alt="${product.name}" style="width: 100%; height: auto; max-height: 300px;">
+                                            <img style="height: 350px; object-fit: cover;"
+ src="${imageUrl}" alt="${product.name}" style="width: 100%; height: auto; max-height: 300px;">
                                         </a>
                                         <h2 class="product-title"><a href="product-details.html" onclick="storeproductid(${product.productId})">${product.name}</a></h2>
                                         <p>${priceHtml}</p>

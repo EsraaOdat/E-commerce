@@ -19644,3 +19644,1306 @@ FROM [Products] AS [p]
 2024-09-10 14:06:50.429 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.2527ms
 2024-09-10 14:06:50.429 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
 2024-09-10 14:06:50.429 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.0229ms
+2024-09-10 14:11:31.728 -07:00 [INF] User profile is available. Using 'C:\Users\Orange\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-10 14:11:32.119 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 14:11:32.120 -07:00 [INF] Hosting environment: Development
+2024-09-10 14:11:32.121 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\E-commerce-main (2)\flower-E-commerce\E-commerce\E-commerce-main\E-Commerce\Back-End\E-Commerce\E-Commerce
+2024-09-10 14:11:32.235 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/swagger - null null
+2024-09-10 14:11:32.236 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:32.235 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:32.237 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:32.454 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:32.454 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:32.454 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:32.458 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:32.458 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:32.458 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:32.475 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:32.475 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:32.475 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:32.927 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:32.934 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:32.935 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:32.935 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:33.132 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/swagger/index.html - null null
+2024-09-10 14:11:33.226 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/swagger - 301 null null 1002.8244ms
+2024-09-10 14:11:33.356 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/swagger/index.html - 200 null text/html;charset=utf-8 223.8614ms
+2024-09-10 14:11:33.367 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/swagger/swagger-ui.css - null null
+2024-09-10 14:11:33.375 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-10 14:11:33.377 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/swagger/swagger-ui-bundle.js - null null
+2024-09-10 14:11:33.396 -07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-10 14:11:33.396 -07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-10 14:11:33.400 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/swagger/swagger-ui.css - 200 143943 text/css 33.1173ms
+2024-09-10 14:11:33.402 -07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-10 14:11:33.409 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 34.0274ms
+2024-09-10 14:11:33.424 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-10 14:11:33.430 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 5.4285ms
+2024-09-10 14:11:33.447 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/_vs/browserLink - null null
+2024-09-10 14:11:33.447 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 70.6595ms
+2024-09-10 14:11:33.543 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.8201ms
+2024-09-10 14:11:33.761 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:33.762 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:33.762 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:33.763 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:34.092 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/swagger/v1/swagger.json - null null
+2024-09-10 14:11:34.354 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 262.919ms
+2024-09-10 14:11:34.485 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:34.491 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:34.491 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.492 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:34.689 -07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.689 -07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.689 -07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.689 -07:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.689 -07:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.689 -07:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.816 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.816 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.817 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.816 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.816 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.817 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.890 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 390.6495ms
+2024-09-10 14:11:34.890 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1119.0134ms
+2024-09-10 14:11:34.890 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2406.7408ms
+2024-09-10 14:11:34.890 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.890 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.890 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1947.0852ms
+2024-09-10 14:11:34.890 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.890 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2406.7308ms
+2024-09-10 14:11:34.890 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.890 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2406.7699ms
+2024-09-10 14:11:34.890 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.890 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.902 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:34.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 499 null application/json; charset=utf-8 2679.5697ms
+2024-09-10 14:11:34.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 499 null application/json; charset=utf-8 2679.5509ms
+2024-09-10 14:11:34.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 499 null application/json; charset=utf-8 2679.5428ms
+2024-09-10 14:11:34.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 499 null application/json; charset=utf-8 417.4549ms
+2024-09-10 14:11:34.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 499 null application/json; charset=utf-8 1975.6765ms
+2024-09-10 14:11:34.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 499 null application/json; charset=utf-8 1141.3093ms
+2024-09-10 14:11:34.902 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:34.903 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.903 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:34.909 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.913 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.915 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 12.1989ms
+2024-09-10 14:11:34.915 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.916 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 14.2796ms
+2024-09-10 14:11:34.925 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:34.925 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:34.926 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.926 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:34.928 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.932 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.934 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 7.5156ms
+2024-09-10 14:11:34.934 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.934 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 9.5694ms
+2024-09-10 14:11:34.936 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:34.936 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:34.936 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.936 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:34.939 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.950 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.952 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 15.1889ms
+2024-09-10 14:11:34.952 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.952 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 16.7314ms
+2024-09-10 14:11:34.954 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:34.954 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:34.954 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.954 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:34.958 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:34.960 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:34.962 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 7.6432ms
+2024-09-10 14:11:34.962 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:34.963 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 9.1758ms
+2024-09-10 14:11:35.325 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.326 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.327 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.327 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.335 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.339 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.341 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 14.0182ms
+2024-09-10 14:11:35.341 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.342 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 16.5313ms
+2024-09-10 14:11:35.343 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.344 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.344 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.344 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.350 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.352 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.355 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 10.4689ms
+2024-09-10 14:11:35.355 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.356 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 12.9028ms
+2024-09-10 14:11:35.359 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.360 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.367 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.368 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.374 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.393 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.396 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 27.8377ms
+2024-09-10 14:11:35.396 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.396 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 37.2481ms
+2024-09-10 14:11:35.402 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.403 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.403 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.403 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.408 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.411 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.415 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 11.1039ms
+2024-09-10 14:11:35.415 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.415 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 13.1169ms
+2024-09-10 14:11:35.714 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.714 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.715 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.715 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.717 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.720 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.722 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 7.2612ms
+2024-09-10 14:11:35.723 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.723 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 9.581ms
+2024-09-10 14:11:35.724 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.725 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.725 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.725 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.727 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.728 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.730 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 4.6936ms
+2024-09-10 14:11:35.730 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.730 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 5.9982ms
+2024-09-10 14:11:35.731 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.732 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.732 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.732 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.735 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.737 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.741 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 8.3376ms
+2024-09-10 14:11:35.741 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.741 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 10.2964ms
+2024-09-10 14:11:35.742 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:35.743 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:35.743 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.743 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:35.750 -07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:35.753 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:35.755 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 11.3577ms
+2024-09-10 14:11:35.755 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:35.755 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 12.8624ms
+2024-09-10 14:11:37.339 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:37.340 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:37.340 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.340 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:37.343 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:37.347 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:37.351 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 10.8948ms
+2024-09-10 14:11:37.351 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.351 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 12.9426ms
+2024-09-10 14:11:37.353 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:37.353 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:37.353 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.354 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:37.357 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:37.360 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:37.362 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 7.6735ms
+2024-09-10 14:11:37.362 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.362 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 9.6129ms
+2024-09-10 14:11:37.363 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:37.363 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:37.363 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.363 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:37.365 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:37.367 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:37.370 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 6.3517ms
+2024-09-10 14:11:37.370 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.371 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 8.192ms
+2024-09-10 14:11:37.371 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:11:37.372 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:37.372 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.372 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:37.374 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:11:37.377 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:37.378 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 6.137ms
+2024-09-10 14:11:37.379 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:11:37.379 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 7.765ms
+2024-09-10 14:11:52.899 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products/ByColorId/1 - null null
+2024-09-10 14:11:52.900 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:52.900 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:11:52.906 -07:00 [INF] Route matched with {action = "GetProductsByColorId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsByColorId(Int32) on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:53.011 -07:00 [INF] Executed DbCommand (23ms) [Parameters=[@__colorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+WHERE [p].[flower_color_id] = @__colorId_0
+2024-09-10 14:11:53.012 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:53.013 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce) in 106.8383ms
+2024-09-10 14:11:53.013 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:11:53.014 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products/ByColorId/1 - 200 null application/json; charset=utf-8 115.1795ms
+2024-09-10 14:11:59.079 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products/ByColorId/3 - null null
+2024-09-10 14:11:59.080 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:11:59.081 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:11:59.081 -07:00 [INF] Route matched with {action = "GetProductsByColorId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsByColorId(Int32) on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:11:59.086 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__colorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+WHERE [p].[flower_color_id] = @__colorId_0
+2024-09-10 14:11:59.087 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:11:59.087 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce) in 6.5289ms
+2024-09-10 14:11:59.087 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:11:59.088 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products/ByColorId/3 - 200 null application/json; charset=utf-8 9.1266ms
+2024-09-10 14:12:05.354 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products/ByColorId/2 - null null
+2024-09-10 14:12:05.354 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:12:05.355 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:12:05.355 -07:00 [INF] Route matched with {action = "GetProductsByColorId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsByColorId(Int32) on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:12:05.357 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__colorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+WHERE [p].[flower_color_id] = @__colorId_0
+2024-09-10 14:12:05.357 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:12:05.358 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce) in 2.7748ms
+2024-09-10 14:12:05.358 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:12:05.358 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products/ByColorId/2 - 200 null application/json; charset=utf-8 3.9997ms
+2024-09-10 14:12:13.801 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products/ByColorId/2 - null null
+2024-09-10 14:12:13.801 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:12:13.802 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:12:13.802 -07:00 [INF] Route matched with {action = "GetProductsByColorId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsByColorId(Int32) on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:12:13.803 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__colorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+WHERE [p].[flower_color_id] = @__colorId_0
+2024-09-10 14:12:13.804 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:12:13.804 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce) in 2.7365ms
+2024-09-10 14:12:13.805 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:12:13.805 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products/ByColorId/2 - 200 null application/json; charset=utf-8 4.0864ms
+2024-09-10 14:12:14.973 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products/ByColorId/1 - null null
+2024-09-10 14:12:14.974 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:12:14.974 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:12:14.974 -07:00 [INF] Route matched with {action = "GetProductsByColorId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsByColorId(Int32) on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:12:14.977 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__colorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+WHERE [p].[flower_color_id] = @__colorId_0
+2024-09-10 14:12:14.978 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:12:14.978 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce) in 4.5306ms
+2024-09-10 14:12:14.979 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetProductsByColorId (E-Commerce)'
+2024-09-10 14:12:14.979 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products/ByColorId/1 - 200 null application/json; charset=utf-8 5.6045ms
+2024-09-10 14:12:51.875 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Home/TopProduct/115 - null null
+2024-09-10 14:12:51.875 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:12:51.876 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce)'
+2024-09-10 14:12:51.879 -07:00 [INF] Route matched with {action = "TopProductWithId", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TopProductWithId(Int32) on controller E_Commerce.Controllers.HomeController (E-Commerce).
+2024-09-10 14:12:51.966 -07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[product_id] AS [ProductId], [p].[name] AS [Name], [p].[description] AS [Description], [p].[image] AS [Image], [p].[price] AS [Price], [p].[category_id] AS [CategoryId], [p].[color] AS [Color], [p].[flower_color_id] AS [FlowerColorId], [p].[price_with_discount] AS [PriceWithDiscount], COALESCE((
+    SELECT AVG(CAST([c].[rating] AS decimal(18,2)))
+    FROM [Comment] AS [c]
+    WHERE [c].[product_id] = [p].[product_id]), 0.0) AS [rating], (
+    SELECT COUNT(*)
+    FROM [Comment] AS [c0]
+    WHERE [c0].[product_id] = [p].[product_id]) AS [ReviewCount]
+FROM [Products] AS [p]
+WHERE [p].[product_id] = @__id_0
+2024-09-10 14:12:51.967 -07:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.DTOs.RatingDTO'.
+2024-09-10 14:12:51.971 -07:00 [INF] Executed action E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce) in 92.2385ms
+2024-09-10 14:12:51.971 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce)'
+2024-09-10 14:12:51.971 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Home/TopProduct/115 - 200 null application/json; charset=utf-8 96.8438ms
+2024-09-10 14:16:38.492 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:38.492 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:38.493 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.493 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:38.533 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:38.535 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:38.535 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 41.7179ms
+2024-09-10 14:16:38.535 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.535 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 43.7548ms
+2024-09-10 14:16:38.537 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:38.538 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:38.538 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.538 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:38.539 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:38.541 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:38.542 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 4.0801ms
+2024-09-10 14:16:38.542 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.542 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.9334ms
+2024-09-10 14:16:38.543 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:38.544 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:38.544 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.544 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:38.546 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:38.547 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:38.549 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 4.9167ms
+2024-09-10 14:16:38.549 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.549 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 5.8655ms
+2024-09-10 14:16:38.551 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:38.551 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:38.552 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.552 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:38.553 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:38.554 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:38.554 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.6519ms
+2024-09-10 14:16:38.555 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:38.555 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.649ms
+2024-09-10 14:16:41.552 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:41.552 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:41.552 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.552 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:41.554 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:41.554 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:41.555 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.7616ms
+2024-09-10 14:16:41.555 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.555 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.6826ms
+2024-09-10 14:16:41.557 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:41.558 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:41.558 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.558 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:41.560 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:41.560 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:41.561 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.5487ms
+2024-09-10 14:16:41.562 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.562 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.5176ms
+2024-09-10 14:16:41.564 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:41.564 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:41.564 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.565 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:41.567 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:41.567 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:41.568 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.0543ms
+2024-09-10 14:16:41.568 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.568 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.2283ms
+2024-09-10 14:16:41.569 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:16:41.569 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:41.570 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.570 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:16:41.571 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:16:41.571 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:16:41.571 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.8019ms
+2024-09-10 14:16:41.572 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:16:41.572 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.4388ms
+2024-09-10 14:16:48.183 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Home/TopProduct/99 - null null
+2024-09-10 14:16:48.185 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:16:48.185 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce)'
+2024-09-10 14:16:48.186 -07:00 [INF] Route matched with {action = "TopProductWithId", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TopProductWithId(Int32) on controller E_Commerce.Controllers.HomeController (E-Commerce).
+2024-09-10 14:16:48.197 -07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[product_id] AS [ProductId], [p].[name] AS [Name], [p].[description] AS [Description], [p].[image] AS [Image], [p].[price] AS [Price], [p].[category_id] AS [CategoryId], [p].[color] AS [Color], [p].[flower_color_id] AS [FlowerColorId], [p].[price_with_discount] AS [PriceWithDiscount], COALESCE((
+    SELECT AVG(CAST([c].[rating] AS decimal(18,2)))
+    FROM [Comment] AS [c]
+    WHERE [c].[product_id] = [p].[product_id]), 0.0) AS [rating], (
+    SELECT COUNT(*)
+    FROM [Comment] AS [c0]
+    WHERE [c0].[product_id] = [p].[product_id]) AS [ReviewCount]
+FROM [Products] AS [p]
+WHERE [p].[product_id] = @__id_0
+2024-09-10 14:16:48.197 -07:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.DTOs.RatingDTO'.
+2024-09-10 14:16:48.198 -07:00 [INF] Executed action E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce) in 12.2802ms
+2024-09-10 14:16:48.198 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce)'
+2024-09-10 14:16:48.198 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Home/TopProduct/99 - 200 null application/json; charset=utf-8 15.3995ms
+2024-09-10 14:18:23.685 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:23.685 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:23.685 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.686 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:23.693 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:23.694 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:23.695 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 9.0779ms
+2024-09-10 14:18:23.695 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.695 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 10.0872ms
+2024-09-10 14:18:23.697 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:23.697 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:23.697 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.697 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:23.701 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:23.702 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:23.703 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.0706ms
+2024-09-10 14:18:23.703 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.703 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.1052ms
+2024-09-10 14:18:23.705 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:23.706 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:23.706 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.706 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:23.709 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:23.711 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:23.711 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.3436ms
+2024-09-10 14:18:23.712 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.712 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.8869ms
+2024-09-10 14:18:23.715 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:23.716 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:23.716 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.716 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:23.718 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:23.719 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:23.720 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.8911ms
+2024-09-10 14:18:23.720 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:23.720 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.8166ms
+2024-09-10 14:18:25.641 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:25.641 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:25.641 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.642 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:25.646 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:25.647 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:25.648 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 6.0405ms
+2024-09-10 14:18:25.648 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.648 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 8.0213ms
+2024-09-10 14:18:25.650 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:25.651 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:25.651 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.651 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:25.653 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:25.654 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:25.655 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.4973ms
+2024-09-10 14:18:25.655 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.655 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.352ms
+2024-09-10 14:18:25.656 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:25.656 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:25.657 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.657 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:25.658 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:25.658 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:25.659 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.2647ms
+2024-09-10 14:18:25.659 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.659 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.9368ms
+2024-09-10 14:18:25.661 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:18:25.661 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:18:25.661 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.661 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:18:25.662 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:18:25.663 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:18:25.663 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.3848ms
+2024-09-10 14:18:25.663 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:18:25.663 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.9568ms
+2024-09-10 14:19:07.887 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:07.888 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:07.888 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.888 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:07.892 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:07.893 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:07.893 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.3296ms
+2024-09-10 14:19:07.893 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.894 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.7888ms
+2024-09-10 14:19:07.896 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:07.896 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:07.896 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.896 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:07.897 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:07.898 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:07.898 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.057ms
+2024-09-10 14:19:07.898 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.899 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.755ms
+2024-09-10 14:19:07.900 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:07.900 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:07.900 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.900 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:07.902 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:07.903 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:07.904 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.5058ms
+2024-09-10 14:19:07.904 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.904 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.1273ms
+2024-09-10 14:19:07.906 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:07.907 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:07.907 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.907 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:07.910 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:07.911 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:07.912 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.0438ms
+2024-09-10 14:19:07.912 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:07.912 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.1139ms
+2024-09-10 14:19:09.979 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:09.979 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:09.979 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.979 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:09.981 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:09.981 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:09.982 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.3501ms
+2024-09-10 14:19:09.982 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.982 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.1925ms
+2024-09-10 14:19:09.983 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:09.983 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:09.984 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.984 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:09.985 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:09.985 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:09.986 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.912ms
+2024-09-10 14:19:09.986 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.986 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.4904ms
+2024-09-10 14:19:09.987 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:09.987 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:09.987 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.987 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:09.989 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:09.989 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:09.990 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.3012ms
+2024-09-10 14:19:09.990 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.990 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.8358ms
+2024-09-10 14:19:09.991 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:09.992 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:09.992 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.992 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:09.994 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:09.994 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:09.995 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.6195ms
+2024-09-10 14:19:09.995 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:09.995 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.2803ms
+2024-09-10 14:19:25.441 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:25.442 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:25.442 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.442 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:25.444 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:25.445 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:25.445 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.9523ms
+2024-09-10 14:19:25.445 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.445 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.7702ms
+2024-09-10 14:19:25.447 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:25.447 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:25.447 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.448 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:25.449 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:25.449 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:25.450 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.3855ms
+2024-09-10 14:19:25.450 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.450 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.8982ms
+2024-09-10 14:19:25.452 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:25.452 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:25.452 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.452 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:25.457 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:25.457 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:25.458 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.8013ms
+2024-09-10 14:19:25.458 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.458 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.4828ms
+2024-09-10 14:19:25.461 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:19:25.461 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:25.462 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.462 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:19:25.467 -07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:19:25.468 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:19:25.469 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 7.0277ms
+2024-09-10 14:19:25.469 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:19:25.469 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 7.8834ms
+2024-09-10 14:19:32.696 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Home/TopProduct/99 - null null
+2024-09-10 14:19:32.697 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:19:32.697 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce)'
+2024-09-10 14:19:32.697 -07:00 [INF] Route matched with {action = "TopProductWithId", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TopProductWithId(Int32) on controller E_Commerce.Controllers.HomeController (E-Commerce).
+2024-09-10 14:19:32.707 -07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[product_id] AS [ProductId], [p].[name] AS [Name], [p].[description] AS [Description], [p].[image] AS [Image], [p].[price] AS [Price], [p].[category_id] AS [CategoryId], [p].[color] AS [Color], [p].[flower_color_id] AS [FlowerColorId], [p].[price_with_discount] AS [PriceWithDiscount], COALESCE((
+    SELECT AVG(CAST([c].[rating] AS decimal(18,2)))
+    FROM [Comment] AS [c]
+    WHERE [c].[product_id] = [p].[product_id]), 0.0) AS [rating], (
+    SELECT COUNT(*)
+    FROM [Comment] AS [c0]
+    WHERE [c0].[product_id] = [p].[product_id]) AS [ReviewCount]
+FROM [Products] AS [p]
+WHERE [p].[product_id] = @__id_0
+2024-09-10 14:19:32.707 -07:00 [INF] Executing OkObjectResult, writing value of type 'E_Commerce.DTOs.RatingDTO'.
+2024-09-10 14:19:32.708 -07:00 [INF] Executed action E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce) in 10.8072ms
+2024-09-10 14:19:32.708 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.HomeController.TopProductWithId (E-Commerce)'
+2024-09-10 14:19:32.708 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Home/TopProduct/99 - 200 null application/json; charset=utf-8 11.6297ms
+2024-09-10 14:20:12.428 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:12.429 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:12.429 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.429 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:12.435 -07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:12.435 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:12.436 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 6.8319ms
+2024-09-10 14:20:12.436 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.436 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 8.0015ms
+2024-09-10 14:20:12.439 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:12.439 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:12.439 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.439 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:12.441 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:12.441 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:12.442 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.6501ms
+2024-09-10 14:20:12.442 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.442 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.5552ms
+2024-09-10 14:20:12.444 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:12.444 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:12.444 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.444 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:12.446 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:12.450 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:12.451 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 6.8104ms
+2024-09-10 14:20:12.451 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.451 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 7.6568ms
+2024-09-10 14:20:12.454 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:12.454 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:12.454 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.454 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:12.456 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:12.456 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:12.457 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.8839ms
+2024-09-10 14:20:12.457 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:12.457 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.6268ms
+2024-09-10 14:20:14.738 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:14.738 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:14.738 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.739 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:14.740 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:14.741 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:14.742 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.8859ms
+2024-09-10 14:20:14.742 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.742 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.7858ms
+2024-09-10 14:20:14.743 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:14.743 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:14.743 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.744 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:14.745 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:14.745 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:14.746 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0878ms
+2024-09-10 14:20:14.746 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.746 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5861ms
+2024-09-10 14:20:14.747 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:14.747 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:14.748 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.748 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:14.749 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:14.749 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:14.750 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.9918ms
+2024-09-10 14:20:14.750 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.750 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5785ms
+2024-09-10 14:20:14.752 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:14.752 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:14.752 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.752 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:14.754 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:14.755 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:14.756 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.2434ms
+2024-09-10 14:20:14.756 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:14.756 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.2936ms
+2024-09-10 14:20:25.404 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:25.405 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:25.405 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.406 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:25.408 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:25.408 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:25.409 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.014ms
+2024-09-10 14:20:25.409 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.409 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.5173ms
+2024-09-10 14:20:25.411 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:25.412 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:25.412 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.412 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:25.416 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:25.416 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:25.417 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.0438ms
+2024-09-10 14:20:25.417 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.417 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 5.8301ms
+2024-09-10 14:20:25.419 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:25.419 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:25.419 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.419 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:25.421 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:25.422 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:25.423 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 3.364ms
+2024-09-10 14:20:25.423 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.423 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 4.1937ms
+2024-09-10 14:20:25.424 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:20:25.425 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:20:25.425 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.425 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:20:25.426 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:20:25.427 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:20:25.428 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.6263ms
+2024-09-10 14:20:25.428 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:20:25.428 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.4817ms
+2024-09-10 14:22:42.637 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:42.637 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:42.637 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.638 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:42.641 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:42.642 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:42.643 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.1738ms
+2024-09-10 14:22:42.643 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.643 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.1956ms
+2024-09-10 14:22:42.645 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:42.645 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:42.645 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.645 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:42.647 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:42.647 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:42.648 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.679ms
+2024-09-10 14:22:42.648 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.648 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.1671ms
+2024-09-10 14:22:42.649 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:42.649 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:42.649 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.650 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:42.651 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:42.651 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:42.652 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0957ms
+2024-09-10 14:22:42.652 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.652 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5515ms
+2024-09-10 14:22:42.653 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:42.653 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:42.653 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.654 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:42.655 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:42.656 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:42.656 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.9261ms
+2024-09-10 14:22:42.657 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:42.657 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.5875ms
+2024-09-10 14:22:45.053 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:45.053 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:45.053 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.053 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:45.055 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:45.055 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:45.056 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.1098ms
+2024-09-10 14:22:45.056 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.056 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.7763ms
+2024-09-10 14:22:45.057 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:45.057 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:45.057 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.057 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:45.058 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:45.059 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:45.059 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0813ms
+2024-09-10 14:22:45.059 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.059 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5147ms
+2024-09-10 14:22:45.062 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:45.062 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:45.062 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.062 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:45.063 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:45.063 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:45.064 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.9934ms
+2024-09-10 14:22:45.064 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.064 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.561ms
+2024-09-10 14:22:45.066 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:22:45.066 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:22:45.067 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.067 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:22:45.068 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:22:45.069 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:22:45.070 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.8452ms
+2024-09-10 14:22:45.070 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:22:45.070 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.6618ms
+2024-09-10 14:24:04.145 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:24:04.146 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:24:04.146 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.146 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:24:04.153 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:24:04.154 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:24:04.159 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 11.4814ms
+2024-09-10 14:24:04.159 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.159 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 14.4326ms
+2024-09-10 14:24:04.161 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:24:04.162 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:24:04.162 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.162 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:24:04.163 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:24:04.164 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:24:04.164 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.5958ms
+2024-09-10 14:24:04.164 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.165 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 3.1113ms
+2024-09-10 14:24:04.168 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:24:04.168 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:24:04.168 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.168 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:24:04.172 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:24:04.173 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:24:04.174 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 5.6539ms
+2024-09-10 14:24:04.174 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.174 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.4179ms
+2024-09-10 14:24:04.176 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:24:04.176 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:24:04.176 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.176 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:24:04.177 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:24:04.178 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:24:04.178 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.1029ms
+2024-09-10 14:24:04.178 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:24:04.178 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.815ms
+2024-09-10 14:25:22.731 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:22.731 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:22.731 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.731 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:22.735 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:22.737 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:22.737 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 6.0047ms
+2024-09-10 14:25:22.737 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.737 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 6.4637ms
+2024-09-10 14:25:22.739 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:22.739 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:22.739 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.739 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:22.740 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:22.741 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:22.741 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.8522ms
+2024-09-10 14:25:22.741 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.741 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.3465ms
+2024-09-10 14:25:22.743 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:22.743 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:22.743 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.743 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:22.744 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:22.744 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:22.744 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.5174ms
+2024-09-10 14:25:22.744 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.744 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.8639ms
+2024-09-10 14:25:22.746 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:22.746 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:22.746 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.746 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:22.747 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:22.747 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:22.748 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0475ms
+2024-09-10 14:25:22.748 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:22.748 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.3802ms
+2024-09-10 14:25:24.533 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:24.534 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:24.534 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.534 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:24.535 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:24.535 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:24.536 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0075ms
+2024-09-10 14:25:24.536 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.536 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.4243ms
+2024-09-10 14:25:24.537 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:24.537 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:24.537 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.537 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:24.538 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:24.538 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:24.539 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.7025ms
+2024-09-10 14:25:24.539 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.539 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.0273ms
+2024-09-10 14:25:24.541 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:24.541 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:24.541 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.541 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:24.543 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:24.543 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:24.544 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.2959ms
+2024-09-10 14:25:24.544 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.544 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.9558ms
+2024-09-10 14:25:24.545 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:24.545 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:24.546 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.546 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:24.547 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:24.547 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:24.548 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.7909ms
+2024-09-10 14:25:24.548 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:24.548 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5407ms
+2024-09-10 14:25:27.899 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:27.899 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:27.899 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.900 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:27.901 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:27.901 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:27.901 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.9123ms
+2024-09-10 14:25:27.902 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.902 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.7665ms
+2024-09-10 14:25:27.903 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:27.903 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:27.903 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.903 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:27.904 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:27.904 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:27.905 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.9144ms
+2024-09-10 14:25:27.905 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.905 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.3068ms
+2024-09-10 14:25:27.907 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:27.907 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:27.907 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.907 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:27.908 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:27.909 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:27.909 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.2112ms
+2024-09-10 14:25:27.909 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.909 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.7364ms
+2024-09-10 14:25:27.911 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:27.911 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:27.911 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.911 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:27.912 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:27.913 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:27.913 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0868ms
+2024-09-10 14:25:27.913 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:27.913 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.559ms
+2024-09-10 14:25:32.784 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:32.784 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:32.784 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.784 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:32.785 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:32.785 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:32.786 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0338ms
+2024-09-10 14:25:32.786 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.786 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5326ms
+2024-09-10 14:25:32.788 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:32.788 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:32.788 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.788 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:32.789 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:32.789 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:32.790 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.6107ms
+2024-09-10 14:25:32.790 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.790 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.1903ms
+2024-09-10 14:25:32.791 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:32.791 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:32.791 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.791 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:32.792 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:32.793 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:32.793 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.2732ms
+2024-09-10 14:25:32.793 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.794 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5521ms
+2024-09-10 14:25:32.795 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:32.795 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:32.795 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.795 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:32.796 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:32.796 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:32.796 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.3209ms
+2024-09-10 14:25:32.796 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:32.797 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.6194ms
+2024-09-10 14:25:39.546 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:39.546 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:39.546 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.546 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:39.548 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:39.548 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:39.549 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.0269ms
+2024-09-10 14:25:39.549 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.549 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.6838ms
+2024-09-10 14:25:39.550 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:39.550 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:39.551 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.551 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:39.552 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:39.552 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:39.552 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.5767ms
+2024-09-10 14:25:39.552 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.552 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.1015ms
+2024-09-10 14:25:39.554 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:39.554 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:39.554 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.554 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:39.555 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:39.556 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:39.556 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.1974ms
+2024-09-10 14:25:39.556 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.557 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.6451ms
+2024-09-10 14:25:39.558 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:39.558 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:39.558 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.558 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:39.559 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:39.560 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:39.560 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.7595ms
+2024-09-10 14:25:39.560 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:39.560 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.2982ms
+2024-09-10 14:25:41.801 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:41.801 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:41.801 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.801 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:41.802 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:41.803 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:41.803 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.1846ms
+2024-09-10 14:25:41.803 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.804 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.5793ms
+2024-09-10 14:25:41.805 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:41.805 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:41.805 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.805 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:41.806 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:41.807 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:41.807 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.5865ms
+2024-09-10 14:25:41.807 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.807 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.1193ms
+2024-09-10 14:25:41.808 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:41.808 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:41.808 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.808 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:41.809 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:41.810 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:41.810 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.9326ms
+2024-09-10 14:25:41.810 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.810 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.3018ms
+2024-09-10 14:25:41.811 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:41.811 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:41.811 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.811 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:41.812 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:41.813 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:41.813 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.3827ms
+2024-09-10 14:25:41.813 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:41.813 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.6516ms
+2024-09-10 14:25:48.487 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:48.488 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:48.488 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.488 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:48.489 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:48.489 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:48.490 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.2239ms
+2024-09-10 14:25:48.490 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.490 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.6329ms
+2024-09-10 14:25:48.491 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:48.492 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:48.492 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.492 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:48.493 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:48.493 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:48.493 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.5939ms
+2024-09-10 14:25:48.493 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.493 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.9284ms
+2024-09-10 14:25:48.495 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:48.495 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:48.495 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.495 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:48.496 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:48.496 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:48.497 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.8459ms
+2024-09-10 14:25:48.497 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.497 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.1767ms
+2024-09-10 14:25:48.498 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:48.498 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:48.498 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.498 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:48.499 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:48.500 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:48.500 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.7138ms
+2024-09-10 14:25:48.500 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:48.500 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.1094ms
+2024-09-10 14:25:54.616 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:54.616 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:54.616 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.616 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:54.617 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:54.618 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:54.619 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 2.3362ms
+2024-09-10 14:25:54.619 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.619 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 2.753ms
+2024-09-10 14:25:54.620 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:54.620 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:54.620 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.620 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:54.621 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:54.621 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:54.622 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.4493ms
+2024-09-10 14:25:54.622 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.622 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.7521ms
+2024-09-10 14:25:54.623 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:54.623 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:54.623 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.623 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:54.624 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:54.624 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:54.625 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.4955ms
+2024-09-10 14:25:54.625 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.625 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.8062ms
+2024-09-10 14:25:54.626 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44396/api/Products - null null
+2024-09-10 14:25:54.626 -07:00 [INF] CORS policy execution successful.
+2024-09-10 14:25:54.626 -07:00 [INF] Executing endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.626 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller E_Commerce.Controllers.ProductsController (E-Commerce).
+2024-09-10 14:25:54.627 -07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[color], [p].[description], [p].[flower_color_id], [p].[image], [p].[name], [p].[price], [p].[price_with_discount]
+FROM [Products] AS [p]
+2024-09-10 14:25:54.627 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Commerce.Models.Product, E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-10 14:25:54.628 -07:00 [INF] Executed action E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce) in 1.5943ms
+2024-09-10 14:25:54.628 -07:00 [INF] Executed endpoint 'E_Commerce.Controllers.ProductsController.GetAllProducts (E-Commerce)'
+2024-09-10 14:25:54.628 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44396/api/Products - 200 null application/json; charset=utf-8 1.8809ms
